@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_browse"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Home"
+        app:cnb_iconColor="#2DD835"/>
+
+    <item
+        android:id="@+id/nav_feed"
+        android:icon="@drawable/ic_baseline_notes_24"
+        android:title="Feed"
+        app:cnb_iconColor="#FFA615"/>
+
+    <item
+        android:id="@+id/nav_qrcode"
+        android:icon="@drawable/ic_baseline_qr_code_scanner_24"
+        android:title="QR Code"
+        app:cnb_iconColor="#172FDC"/>
+
+</menu>
